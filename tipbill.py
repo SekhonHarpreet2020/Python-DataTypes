@@ -1,0 +1,6 @@
+bill = float(input("Enter total bill for the meal: "))
+totalpeople = int(input("Enter total number of people: "))
+tip = float(input("Enter tip percentage: 10,12,15 ? "))
+totalbill = (bill +(tip/100))
+billperperson = round (totalbill/totalpeople)
+print(f'Each person should pay: {billperperson}')
